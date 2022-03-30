@@ -575,6 +575,7 @@ case 'tqtt': case 'tqto': case 'thanksto': {
 ⭔ Fatih A.
 ⭔ Nurutomo.
 ⭔ Mhankbarbar.
+* Aiman
 ⭔ ZeeoneOfc.
 ⭔ Penyedia Module.
 ⭔ Penyedia Res Api's.
@@ -589,7 +590,7 @@ case 'tqtt': case 'tqto': case 'thanksto': {
 • Wita : ${wita}`
                 let button = [{
                                 urlButton: {
-                                    displayText: 'Youtube Creator',
+                                    displayText: 'My web',
                                     url: global.myweb
                                 }
                             }, {
@@ -622,7 +623,7 @@ let template = await generateWAMessageFromContent(m.chat, proto.Message.fromObje
                     title: `Hi ${pushname} Selamat ${salam}\n┌──⭓ 「 INFO USER 」⭓\n│\n│ Name : ${pushname}\n│ Number : ${m.sender.split('@')[0]}\n│ Status : ${isCreator ? 'Owner' : 'User'}\n│\n└───────⭓\n┌──⭓ 「 INFO BOT 」⭓\n│\n│ Prefix : ( ${prefix} )\n│Name : ${global.namabot}\n│ Owner : ${global.namaowner}\n│ Mode : ${hisoka.public ? 'Public' : 'Self'}\n│ Runtime : ${runtime(process.uptime())}\n│ Lib : Baileys-md\n│\n└───────⭓\n\n┌──⭓ 「 INFO TIME 」⭓\n│\n│ WIB : ${wib}\n│ WIT : ${wit}\n│ WITA : ${wita}\n│\n└───────⭓`,
                     description: "\n",
                     buttonText: "CLICK HERE",
-                    footerText: "Jangan Spam Bot.!!!!",
+                    footerText: "Rikka Bot",
                     listType: "SINGLE_SELECT",
                     sections: [{
 								"title": "Fitur Grup",
@@ -810,13 +811,13 @@ let template = await generateWAMessageFromContent(m.chat, proto.Message.fromObje
 https://github.com/DikaArdnt/Hisoka-Morou
 
 
-🌱 Recode By : Sanzy YT
+🌱 Recode By : Aiman
 
-https://youtube.com/c/SanzyYT`
+https://github.com/ai-man-123`
                 let button = [{
                                 urlButton: {
-                                    displayText: 'Youtube Creator',
-                                    url: 'https://youtube.com/c/SanzyYT'
+                                    displayText: 'My web',
+                                    url: 'https://s.id/aimaN'
                                 }
                             }]
                 hisoka.send5ButImg(m.chat, anu, hisoka.user.name, global.thumb, button)
@@ -872,16 +873,16 @@ var messa = await prepareWAMessageMedia({ image: fs.readFileSync('./lib/hisoka.j
                         "productId": "7091718154232528",
                         "title": `_*MENU *_`,
                         "description": '┏━━━━━━━━━━━━━━⬣\n┃        〔 SEWA BOT  〕\n┃ \n┃▰▰▰▰▰▰▰▰▰▰▰▰▰▰\n┃   ⬣ SEWA + PREM ⬣\n┃⬡ 1 MINGGU : 8K\n┃⬡ 1 BULAN : 18K\n┃⬡ PERMANEN : 25K\n┃▰▰▰▰▰▰▰▰▰▰▰▰▰▰\n┃       〔 KELEBIHAN BOT 〕\n┃▰▰▰▰▰▰▰▰▰▰▰▰▰▰\n┃⬡ ON 24 JAM\n┃⬡ RUN DI RDP\n┃⬡ ANTI DELAY \n┃⬡ ANTILINK\n┃⬡ WELCOME IMAGE\n┃⬡ LEFT\n┃▰▰▰▰▰▰▰▰▰▰▰▰▰▰\n┃           ⬣〔  SISTEM 〕⬣\n┃⬡ TF - SEND BUKTI - BOT JOIN\n┃▰▰▰▰▰▰▰▰▰▰▰▰▰▰\n┃    *PAYMENT* :\n┃ GOPAY\n┃ DANA\n┃▰▰▰▰▰▰▰▰▰▰▰▰▰▰\n\n_Bukan Bot_ *_Wibusoft_*👍🏻',
-                        "footerText": `© Sazy YT`,
+                        "footerText": `© ꋬ꒐ꂵꋬꋊ メ *͘⁴̅⁰͍⁴̵`,
                         "currencyCode": "IDR",
                         "priceAmount1000": "100000000000000000",
                         "productImageCount": 1,
                         "firstImageId": 1,
                         "salePriceAmount1000": "1000",
-                        "retailerId": `Sanzy`,
-                        "url": "wa.me/6281276698054"
+                        "retailerId": `Aiman`,
+                        "url": "wa.me/60102810046"
                     },
-                    "businessOwnerJid": "6281276698054@s.whatsapp.net",
+                    "businessOwnerJid": "60102810046@s.whatsapp.net",
                 }
                 }), { userJid: m.chat, quoted: m })
                 hisoka.relayMessage(m.chat, catalog.message, { messageId: catalog.key.id })
@@ -1472,7 +1473,7 @@ break
                     await sleep(1500)
                     let btn = [{
                                 urlButton: {
-                                    displayText: 'Youtube Creator',
+                                    displayText: 'my web',
                                     url: global.myweb
                                 }
                             }, {
@@ -1511,7 +1512,7 @@ break
 		    await sleep(1500)
 		    let btn = [{
                                 urlButton: {
-                                    displayText: 'Youtube Creator',
+                                    displayText: 'my web',
                                     url: global.myweb
                                 }
                             }, {
@@ -3424,7 +3425,7 @@ case 'groupmenu': case 'menugroup': {
 └───────⭓`
                 let button = [{
                                 urlButton: {
-                                    displayText: 'Youtube Creator',
+                                    displayText: 'My web',
                                     url: global.myweb
                                 }
                             }, {
@@ -3487,7 +3488,7 @@ case 'downloadmenu': case 'menudownload': {
 └───────⭓`
                 let button = [{
                                 urlButton: {
-                                    displayText: 'Youtube Creator',
+                                    displayText: 'My web',
                                     url: global.myweb
                                 }
                             }, {
@@ -3544,7 +3545,7 @@ case 'searchmenu': case 'menusearch': {
 └───────⭓`
                 let button = [{
                                 urlButton: {
-                                    displayText: 'Youtube Creator',
+                                    displayText: 'my web',
                                     url: global.myweb
                                 }
                             }, {
@@ -3636,7 +3637,7 @@ case 'randomimagemenu': case 'menurandomimage': {
 └───────⭓`
                 let button = [{
                                 urlButton: {
-                                    displayText: 'Youtube Creator',
+                                    displayText: 'my web',
                                     url: global.myweb
                                 }
                             }, {
@@ -3741,7 +3742,7 @@ case 'wibumenu': case 'menuwibu': {
 └───────⭓`
                 let button = [{
                                 urlButton: {
-                                    displayText: 'Youtube Creator',
+                                    displayText: 'my web',
                                     url: global.myweb
                                 }
                             }, {
@@ -3803,7 +3804,7 @@ case 'asupanmenu': case 'menuasupan': {
 └───────⭓`
                 let button = [{
                                 urlButton: {
-                                    displayText: 'Youtube Creator',
+                                    displayText: 'my web',
                                     url: global.myweb
                                 }
                             }, {
@@ -3881,7 +3882,7 @@ case 'randomtextmenu': case 'menurandomtext': {
 └───────⭓`
                 let button = [{
                                 urlButton: {
-                                    displayText: 'Youtube Creator',
+                                    displayText: 'my web',
                                     url: global.myweb
                                 }
                             }, {
@@ -3946,7 +3947,7 @@ case 'randommenu': case 'menurandom': {
 └───────⭓`
                 let button = [{
                                 urlButton: {
-                                    displayText: 'Youtube Creator',
+                                    displayText: 'My web',
                                     url: global.myweb
                                 }
                             }, {
@@ -3996,7 +3997,7 @@ case 'commentmenu': case 'menucomment': {
 └───────⭓`
                 let button = [{
                                 urlButton: {
-                                    displayText: 'Youtube Creator',
+                                    displayText: 'My web',
                                     url: global.myweb
                                 }
                             }, {
@@ -4052,7 +4053,7 @@ case 'sertifikatmenu': case 'menusertifikat': {
 └───────⭓`
                 let button = [{
                                 urlButton: {
-                                    displayText: 'Youtube Creator',
+                                    displayText: 'My web',
                                     url: global.myweb
                                 }
                             }, {
@@ -4178,7 +4179,7 @@ case 'textpromenu': case 'menutextpro': {
 └───────⭓`
                 let button = [{
                                 urlButton: {
-                                    displayText: 'Youtube Creator',
+                                    displayText: 'my web',
                                     url: global.myweb
                                 }
                             }, {
@@ -4252,7 +4253,7 @@ case 'photooxymenu': case 'menuphotooxy': {
 └───────⭓`
                 let button = [{
                                 urlButton: {
-                                    displayText: 'Youtube Creator',
+                                    displayText: 'my web',
                                     url: global.myweb
                                 }
                             }, {
@@ -4348,7 +4349,7 @@ case 'photomakermenu': case 'menuphotomaker': {
 └───────⭓`
                 let button = [{
                                 urlButton: {
-                                    displayText: 'Youtube Creator',
+                                    displayText: 'my web',
                                     url: global.myweb
                                 }
                             }, {
@@ -4429,7 +4430,7 @@ case 'stickermenu': case 'stikermenu': {
 └───────⭓`
                 let button = [{
                                 urlButton: {
-                                    displayText: 'Youtube Creator',
+                                    displayText: 'my web', 
                                     url: global.myweb
                                 }
                             }, {
@@ -4527,7 +4528,7 @@ case 'ephotomenu': case 'menuephoto': {
 └───────⭓`
                 let button = [{
                                 urlButton: {
-                                    displayText: 'Youtube Creator',
+                                    displayText: 'my web',
                                     url: global.myweb
                                 }
                             }, {
@@ -4589,7 +4590,7 @@ case 'funmenu': case 'menufun': {
 └───────⭓`
                 let button = [{
                                 urlButton: {
-                                    displayText: 'Youtube Creator',
+                                    displayText: 'my web',
                                     url: global.myweb
                                 }
                             }, {
